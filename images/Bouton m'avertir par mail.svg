@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="60" viewBox="0 0 320 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.017" x2="0.96" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0098fd"/>
+      <stop offset="1" stop-color="#00c7fa"/>
+    </linearGradient>
+    <filter id="Rectangle_20" x="0" y="0" width="320" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.494"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Bouton_m_avertir_par_mail" data-name="Bouton m&apos;avertir par mail" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Rectangle_20)">
+      <rect id="Rectangle_20-2" data-name="Rectangle 20" width="302" height="42" rx="21" transform="translate(9 9)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="M_avertir_par_mail_à_la_fin_du_décompte_" transform="translate(38 26)" fill="#fff" font-size="12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">M’avertir par mail à la fin du décompte !</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 78 30" style="enable-background:new 0 0 78 30;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#020304;}
+	.st2{fill:#010202;}
+	.st3{fill:#F4F3F4;}
+	.st4{fill:#354494;}
+	.st5{fill:#D62335;}
+</style>
+<g id="bouton_menu_france" transform="translate(-271 -76)">
+	<g id="bouton_menu_choix_allemand" transform="translate(163 295)">
+		<g id="choix_langue_allemand" transform="translate(371 -384)">
+			<g id="bouton_langue" transform="translate(-254 174)">
+				<g transform="matrix(1, 0, 0, 1, -9, -9)">
+					<path id="Rectangle_408-2" class="st0" d="M15,0h48c8.3,0,15,6.7,15,15l0,0c0,8.3-6.7,15-15,15H15C6.7,30,0,23.3,0,15l0,0
+						C0,6.7,6.7,0,15,0z"/>
+				</g>
+				<path id="fleche" class="st1" d="M61.9,5.6c0-0.1-0.1-0.1-0.1-0.2L57,0.6c-0.3-0.4-0.8-0.4-1.2-0.1l-0.1,0.1l0,0
+					c-0.4,0.3-0.4,0.8-0.1,1.2l0.1,0.1l0,0L60,6.2l-4.3,4c-0.4,0.3-0.4,0.8-0.1,1.2l0.1,0.1l0,0c0.3,0.4,0.8,0.4,1.2,0.1l0.1-0.1
+					l5-4.6C62.2,6.4,62.2,5.9,61.9,5.6z"/>
+			</g>
+		</g>
+		<g id="Groupe_344" transform="translate(156 -204)">
+			<path id="Rectangle_56" class="st2" d="M-8-7H7c0.6,0,1,0.4,1,1S7.6-5,7-5H-8c-0.6,0-1-0.4-1-1S-8.6-7-8-7z"/>
+			<path id="Rectangle_57" class="st2" d="M-8-1H7c0.6,0,1,0.4,1,1l0,0c0,0.6-0.4,1-1,1H-8c-0.6,0-1-0.4-1-1l0,0C-9-0.6-8.6-1-8-1z"
+				/>
+			<path id="Rectangle_58" class="st2" d="M-8,5H7c0.6,0,1,0.4,1,1S7.6,7,7,7H-8c-0.6,0-1-0.4-1-1S-8.6,5-8,5z"/>
+		</g>
+	</g>
+	<g id="choix_langue_francais" transform="translate(333.05 2)">
+		<g id="Groupe_345">
+			<path id="Tracé_6741" class="st3" d="M-44.9,79.9h-0.4V98h8.7V79.9H-44.9z"/>
+			<path id="Tracé_6742" class="st4" d="M-45.3,98V79.9c-4.8,0.2-8.6,4.2-8.6,9l0,0C-53.9,93.7-50.1,97.8-45.3,98z"/>
+			<path id="Tracé_6743" class="st5" d="M-36.6,79.9V98c4.8-0.2,8.6-4.2,8.6-9l0,0C-28,84.2-31.8,80.2-36.6,79.9z"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,4 @@
+<svg id="Coche_rouge" data-name="Coche rouge" xmlns="http://www.w3.org/2000/svg" width="13.875" height="13.875" viewBox="0 0 13.875 13.875">
+  <circle id="Ellipse_13" data-name="Ellipse 13" cx="6.275" cy="6.275" r="6.275" transform="translate(0.662 0.44)" fill="#fff"/>
+  <path id="error-solid" d="M12.938,6a6.938,6.938,0,1,0,6.938,6.938A6.938,6.938,0,0,0,12.938,6Zm-.861,3.469a.867.867,0,0,1,1.734,0v3.983a.867.867,0,0,1-1.734,0Zm.861,7.8a.994.994,0,1,1,.994-.994A.994.994,0,0,1,12.938,17.274Z" transform="translate(-6 -6)" fill="#f42222"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.87" height="93.296" viewBox="0 0 93.87 93.296">
+  <defs>
+    <filter id="Path_65" x="0" y="0" width="93.87" height="93.296" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_379" data-name="Group 379" transform="translate(30 27)">
+    <g id="Group_110" data-name="Group 110" transform="translate(0)">
+      <g id="Group_104" data-name="Group 104" transform="translate(0 0)">
+        <g id="Group_96" data-name="Group 96" transform="translate(0 0)">
+          <g transform="matrix(1, 0, 0, 1, -30, -27)" filter="url(#Path_65)">
+            <path id="Path_65-2" data-name="Path 65" d="M16.935,0A16.793,16.793,0,0,1,33.87,16.648,16.793,16.793,0,0,1,16.935,33.3,16.793,16.793,0,0,1,0,16.648,16.793,16.793,0,0,1,16.935,0Z" transform="translate(30 27)" fill="#647cff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Path_91" data-name="Path 91" d="M4885.255,577.5c-.945.965-1.882,1.936-2.835,2.893q-3.267,3.281-6.544,6.55c-.661.661-.791.662-1.465-.01-1.046-1.043-2.089-2.089-3.178-3.178-.284.267-.542.5-.787.742q-2.768,2.763-5.532,5.528c-.229.229-.462.569-.829.221s-.183-.665.115-.963q3.253-3.25,6.5-6.51a.694.694,0,0,1,1.162.01c1.08,1.126,2.178,2.235,3.229,3.311l9.466-9.467c-.22-.01-.437-.029-.653-.03-1.752,0-3.5,0-5.256-.007a1.223,1.223,0,0,1-.655-.124.714.714,0,0,1-.268-.551c.012-.137.254-.278.419-.371a.825.825,0,0,1,.37-.022q3.5,0,7.008,0c.958,0,1.036.085,1.036,1.034q0,3.41,0,6.82a1.823,1.823,0,0,1-.049.679c-.075.177-.284.4-.447.411a.711.711,0,0,1-.506-.339,1.233,1.233,0,0,1-.08-.606c-.006-1.773,0-3.546-.006-5.318V577.6Z" transform="translate(-4858.284 -566.306)" fill="#fff"/>
+  </g>
+</svg>

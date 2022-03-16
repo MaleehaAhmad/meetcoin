@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="48" viewBox="0 0 77 48">
+  <defs>
+    <filter id="bulle_drapeau" x="0" y="0" width="77" height="48" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.482"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Choix_langue" data-name="Choix langue" transform="translate(9 9)">
+    <g id="choix_langue_francais" transform="translate(294 -130)">
+      <g id="bouton_langue" transform="translate(-452 -64)">
+        <g transform="matrix(1, 0, 0, 1, 149, 185)" filter="url(#bulle_drapeau)">
+          <rect id="bulle_drapeau-2" data-name="bulle_drapeau" width="59" height="30" rx="15" transform="translate(9 9)" fill="#fff"/>
+        </g>
+        <path id="fleche" d="M6162.313,2473.635a.86.86,0,0,0-.124-.153l-4.833-4.833a.921.921,0,0,0-1.3,0h0a.919.919,0,0,0,0,1.3l4.261,4.261-4.324,4.012a.919.919,0,0,0-.048,1.3h0a.92.92,0,0,0,1.3.048l5.011-4.648A.919.919,0,0,0,6162.313,2473.635Z" transform="translate(-5954.819 -2265.098)"/>
+      </g>
+      <g id="Drapeau_francais" transform="translate(-283.95 135.933)">
+        <path id="Path_6741" data-name="Path 6741" d="M76.211,0c-.137,0-.274,0-.411.011V18.123c.137.011.274.011.411.011h7.765c.16,0,.308,0,.468-.011V.011C84.285,0,84.136,0,83.976,0Z" transform="translate(-67.144)" fill="#f4f3f4"/>
+        <path id="Path_6742" data-name="Path 6742" d="M8.645,18.2V.1A9.062,9.062,0,0,0,0,9.133v.034A9.047,9.047,0,0,0,8.645,18.2Z" transform="translate(0 -0.089)" fill="#354294"/>
+        <path id="Path_6743" data-name="Path 6743" d="M151.5.1V18.2a9.072,9.072,0,0,0,8.6-9V9.11A9.074,9.074,0,0,0,151.5.1Z" transform="translate(-134.199 -0.089)" fill="#d62135"/>
+      </g>
+    </g>
+  </g>
+</svg>

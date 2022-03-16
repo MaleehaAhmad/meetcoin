@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="61" viewBox="0 0 320 61">
+  <defs>
+    <filter id="Rectangle_20" x="0" y="0" width="320" height="61" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.494"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Bouton_Configurer_sans_compte_" data-name="Bouton &quot;Configurer sans compte&quot;" transform="translate(7 76)">
+    <g id="Bouton_Validation" data-name="Bouton Validation" transform="translate(2 -67)">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Rectangle_20)">
+        <rect id="Rectangle_20-2" data-name="Rectangle 20" width="302" height="43" rx="21.5" transform="translate(9 9)" fill="#efefef"/>
+      </g>
+    </g>
+    <text id="Configurer_mon_Meetcoin_sans_compte" data-name="Configurer mon Meetcoin sans compte" transform="translate(32 -41)" fill="#484848" font-size="13" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Configurer mon Meetcoin sans compte</tspan></text>
+  </g>
+</svg>

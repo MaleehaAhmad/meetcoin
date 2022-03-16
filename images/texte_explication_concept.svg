@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="319" height="111" viewBox="0 0 319 111">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0099fd"/>
+      <stop offset="1" stop-color="#00c5fa"/>
+    </linearGradient>
+  </defs>
+  <g id="texte_explication_concept" transform="translate(30.218 6.969)">
+    <text id="Gagner_du_temps_en_créant_un_préréglage_pour_remplir_en_2_clics_tes_Meetcoins_la_prochaine_fois" data-name="Gagner du temps en créant un préréglage pour 
+remplir en 2 clics tes Meetcoins la prochaine fois" transform="translate(-8.218 5.031)" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">Gagner du temps en créant un préréglage pour </tspan><tspan x="0" y="15">remplir en 2 clics tes Meetcoins la prochaine fois</tspan></text>
+    <ellipse id="puce_bleue" cx="6.5" cy="6" rx="6.5" ry="6" transform="translate(-30.218 2.031)" fill="url(#linear-gradient)"/>
+    <text id="Garder_un_historique_des_messages_des_Meetcoins_que_tu_recevras_en_les_enregistrant_sur_ton_compte" data-name="Garder un historique des messages des Meetcoins 
+que tu recevras en les enregistrant sur ton compte" transform="translate(-8.218 53.031)" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">Garder un historique des messages des Meetcoins </tspan><tspan x="0" y="15">que tu recevras en les enregistrant sur ton compte</tspan></text>
+    <text id="Recharger_un_Meetcoin_gratuitement" data-name="Recharger un Meetcoin gratuitement" transform="translate(-8.218 101.031)" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">Recharger un Meetcoin gratuitement</tspan></text>
+    <circle id="puce_bleue-2" data-name="puce_bleue" cx="6.5" cy="6.5" r="6.5" transform="translate(-30.218 49.031)" fill="url(#linear-gradient)"/>
+    <ellipse id="puce_bleue-3" data-name="puce_bleue" cx="6.5" cy="6" rx="6.5" ry="6" transform="translate(-30.218 90.031)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

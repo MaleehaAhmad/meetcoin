@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  
+    <title>meetcoin</title>
+
+</head>
+
+<body>
+
+
+    <!-- Head -->
+    <header class="head  pt-2 pb-2">
+        <div class="container-fluid d-flex justify-content-between">
+            <a href="#"><img src="images/logo_meetcoin.svg" class="img-fluid  logo " alt=""></a>
+
+            <div class="wrapper">
+
+                <div class="select_wrap">
+                    <ul class="default_option">
+                        <li class="Fra_li">
+                            <div class="option france_Flg">
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="select_ul">
+                        <li>
+                            <div class="option france_Flg">
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                        <!-- <hr> -->
+                        <li class="eng_li">
+                            <div class="option Eng_flg">
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Side Bar -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+        <div class="offcanvas-body">
+            <div class="index_7" id="index_7">
+                <div class="left">
+                    <header class="head7 ">
+                        <div class="container-fluid pt-4">
+                            <a href="#"><img src="images/Group 375.svg" class="img-fluid logo" alt=""></a>
+                            <h1 class="fw-bold hding pt-2">meetcoin.app</h1>
+                            <a href="#"><img src="images/Choix langue.svg" class="img-fluid pt-2" alt=""></a>
+
+                        </div>
+                    </header>
+
+
+                    <div class="row text-center g-2 fw-bold pt-2 pb-2">
+
+                        <div class="col-md-12 col-lg-12 col-xl-12 btn1 d-block  mt-3 mb-1" id="btn2">
+
+                            Se connecter / Créer un compte gratuit
+                            <small>(en 1 min)</small></span>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="MenuList">
+                        <hr>
+                        <div class="menulist">
+                            <img src="images/Group 377.svg" class="img-fulid img-menu" alt="">
+                            <p class="p-menu">Acheter des Meetcoins</p>
+                        </div>
+                        <hr>
+                        <div class="menulist">
+                            <img src="images/Group 378.svg" class="img-fulid img-menu" alt="">
+                            <p class="p-menu">Pourquoi créer un compte Meetcoin ?</p>
+                        </div>
+                        <hr>
+                        <div class="menulist">
+                            <img src="images/Group 379.svg" class="img-fulid img-menu" alt="">
+                            <p class="p-menu">Des idées d’amélioration ?</p>
+                        </div>
+                        <hr>
+                        <div class="menulist">
+                            <img src="images/Group 380.svg" class="img-fulid img-menu" alt="">
+                            <p class="p-menu">Nous contacter</p>
+                        </div>
+                        <hr>
+                    </div>
+
+
+
+                    <div class="text-center fw-bold btn1 d-block   btnRetour">
+
+                        <a href="index.html"> Retour</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- index_5 -->
+    <section class="index_5" id="index_5">
+        <div class="container  mt-4" style="padding-left:16px;padding-right: 16px;">
+            <h1 class=" text-center fw-bold">Lucien souhaite t'inviter à boire un verre 🍷</i>
+            </h1>
+            <p class=" text-center">Voici son message :</p>
+
+            <div class="card mb-3 ms-auto me-auto">
+                <div class="card-body" id="seleCard">
+                    <p class="card-text quote " onclick="copy(this)">
+                        « Salut ! Je ne suis pas un grand fan de Tinder, je préfère les
+                        rencontres dans la vraie vie et une approche plus originale comme celle-ci. J’aimerais beaucoup
+                        faire ta connaissance. Je te laisse me recontacter pour qu’on essaye de se voir si tu le
+                        souhaites :) »</p>
+
+                </div>
+            </div>
+<div class=" d-flex justify-content-center"> 
+    <div class="cHide" id="cShow">Copié</div>  <!--Copy Hide div-->
+</div>
+           
+
+            <p class="text-center mt-4 fw-bold"
+                style="font-size:13px;font-weight:normal !important; margin-top:16px !important ;margin-bottom: 15px;">
+                Voici ses informations si tu veux reprendre contact :</p>
+
+            <div class="row gy-4 gx-4 gx-xl-0 gx-md-0 gx-sm-2 row-Cen">
+                <div class="col-6 d-flex " style=" padding-right: 6px;padding-left: 6px;">
+                    <img src="images/instagram.png" class="img-fluid " alt="" style="height: 30px; margin-top: 1px;">
+                    <input class="form-control text-center" type="text" placeholder="Lucien_covers"
+                        aria-label="default input example" style="height: 30px;" id="CopyText">
+                    <div class="inHide" id="inShow">Copié</div>   <!--Copy Hide div-->
+                  
+                </div>
+                <div class="col-6 d-flex" style=" padding-right: 6px;padding-left: 6px;">
+                    <img src="images/facebook.png" class="img-fluid" alt="" style="height: 29px; padding-right: 1px;">
+                    <input class="form-control text-center" type="text" placeholder="Lucien GERBER"
+                        aria-label="default input example" style="height: 30px;" id="CopyText2">
+                    <div class="inHide2" id="inShow2">Copié</div>     <!--Copy Hide div-->
+                
+                </div>
+                <div class="col-6 d-flex" style=" padding-right: 6px;padding-left: 6px;margin-top: 15px;">
+                    <img src="images/tiktok.png" class="img-fluid" alt="" style="height: 31px; margin-top: 1px; padding-bottom: 1px;">
+                    <input class="form-control text-center" type="text" placeholder="Lucien_covers"
+                        aria-label="default input example" style="height: 30px;" id="CopyText3">
+                    <div class="inHide3" id="inShow3">Copié</div>     <!--Copy Hide div-->
+                
+                </div>
+                <div class="col-6 d-flex" style=" padding-right: 6px;padding-left: 6px;margin-top: 15px;">
+                    <img src="images/email.png" class="img-fluid email_img" alt="" style="height: 29px; margin-top: 1px;">
+                    <input class="form-control text-start tsmal" type="text" placeholder="Lucien-gerber@hotmail.fr"
+                        aria-label="default input example" style="height: 30px;" id="CopyText4">
+                    <div class="inHide4" id="inShow4">Copié</div>   <!--Copy Hide div-->
+                  
+                </div>
+            </div>
+            <div class="row text-center g-3 mt-3 " style="margin-top: 6px !important;">
+                <div class="col-lg-6 btn1">
+                    <button type="button" class="btn btn-lg mb-3 fw-bold" data-bs-toggle="modal"
+                        data-bs-target="#model4">Enregitrer les infos de ce Meetcoin</button>
+                </div>
+                <div class="col-lg-6 btn2" style="margin-top: 6px;">
+                    <button type="button" class="btn btn-lg mb-3 fw-bold" data-bs-toggle="modal"
+                        data-bs-target="#model5">Réutiliser / Réinitialiser ce Meetcoin</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- Modal4 -->
+
+    <div class="modal fade" id="model4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal4">
+            <div class="modal-content text-center modal4">
+                <div class="modal-header">
+                    <button type="button" class="btn-close bclose" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="fw-bold hding">Tu peux enregistrer les messages <br> des Meetcoins que tu reçois en 1
+                        clic <br> pour
+                        les retrouver à tout moment <br> dans l’historique de ton compte Meetcoin!</h1>
+                    <div class="row g-3 fw-bold  mt-2 mb-3">
+                        <div class="col-12 btn1">
+                            <a type="button" class="btn btn-lg  fw-bold text-center" href="index5.html">Me connecter et
+                                enregistrer ce Meetcoin</a>
+                        </div>
+                    </div>
+                    <h1 class="fw-bold ">Tu n’as pas encore de compte Meetcoin ?</h1>
+                    <h1 class="text-start h_1">Pas de panique, c’est gratuit et ça prend 1 minute</h1>
+                    <h1 class="h_1">Tu as juste besoin d’une adresse mail !</h1>
+                    <div class="row g-3 fw-bold mt-2 mb-3 ">
+                        <div class="col-12 btn2">
+                            <a type="button" class="btn btn-lg fw-bold text-center">Créer mon compte et enregistrer ce
+                                Meetcoin
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal5 -->
+
+
+    <div class="modal fade" id="model5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered modal2 ">
+            <div class="modal-content text-center modal5">
+                <div class="modal-body">
+                    <img src="images/red.png" class="img-fluid mt-1 mb-2" alt="">
+                    <h1 class="fw-bold mt-3 mb-4">Attention cette action est irréversible <br> et effacera le message
+                        actuel du
+                        Meetcoin.</h1>
+                    <div class="row g-2 fw-bold ">
+                        <div class="col-12 btn1">
+                            <a type="button" class="btn btn-lg fw-bold" href="index6.html">Continuer. Je veux
+                                réinitialiser le Meetcoin</a>
+                        </div>
+                        <h1 class="fw-bold ">ou</h1>
+                        <div class="col-12 btn2 mb-3">
+                            <a type="button" href="index5.html" class="btn btn-lg fw-bold ">Retour
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script src="headerScript.js"></script>
+    <script src="CopieScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

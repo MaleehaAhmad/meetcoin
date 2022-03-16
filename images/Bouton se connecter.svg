@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="61" viewBox="0 0 320 61">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.017" x2="0.96" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0098fd"/>
+      <stop offset="1" stop-color="#00c7fa"/>
+    </linearGradient>
+    <filter id="Rectangle_20" x="0" y="0" width="320" height="61" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.494"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Bouton_se_connecter_" data-name="Bouton &quot;se connecter&quot;" transform="translate(7 76)">
+    <g id="Bouton_Validation" data-name="Bouton Validation" transform="translate(2 -67)">
+      <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Rectangle_20)">
+        <rect id="Rectangle_20-2" data-name="Rectangle 20" width="302" height="43" rx="21.5" transform="translate(9 9)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <text id="Se_connecter_Créer_un_compte_gratuit_en_1_min_" data-name="Se connecter / Créer un compte gratuit (en 1 min)" transform="translate(17 -42)" fill="#fff" font-size="12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Se connecter / Créer un compte gratuit </tspan><tspan y="0" font-size="10" font-family="ArialMT, Arial" font-weight="400">(en 1 min)</tspan></text>
+  </g>
+</svg>

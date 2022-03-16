@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <title>meetcoin</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content=
+            "width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity=
+"sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous">
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, 
+        then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity=
+"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous">
+    </script>
+      
+    <script src=
+"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity=
+"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous">
+    </script>
+      
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity=
+"sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous">
+    </script>
+<style>
+
+.collapsible:after {
+  content: ;
+ 
+  float: right;
+  margin-left: 5px;
+}
+.arrow {
+  
+}
+
+.right {
+  
+}
+.active:after {
+    border: solid black;
+  border-width: 0 2px 2px 0;
+  margin-left: 5px; 
+  display: inline-block;
+  padding: 3px;
+ 
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  width: 125px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  border: none;
+}
+
+.dropdown-toggle{
+    background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #0000007b;
+  border-radius: 20px;
+  width: 59px;
+  height: 30px;
+}
+
+.dropdown-toggle::after{
+    content: none !important;
+}
+
+.dropdown-toggle:focus{
+  box-shadow: none;
+}
+
+/* .Flg_Icon_rotate {
+  transform: rotate(90deg);
+  font-size: 12px !important;
+  padding-top: 5px;
+} */
+
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
+.fas,
+ .fa-chevron-right{
+  z-index: 99;
+  font-size: 13px;
+  /* transform: translateY(-5px); */
+}
+.img-flg,
+#Headarrow{
+    transform: translateY(-4px);
+}
+
+.dropdown-item{
+    background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #0000007b;
+  border-radius: 0 0 20px 20px;
+  width: 59px;
+  transform: translateX(3px);
+}
+</style>
+
+</head>
+
+<body>
+    <!-- head -->
+    <header class="head  pt-2 pb-2">
+        <div class="container-fluid d-flex justify-content-between">
+            <a href="#"><img src="images/logo_meetcoin.svg" class="img-fluid  logo " alt=""></a>
+
+            <a href="#" style="margin-top:10px;"><div class="dropdown">
+            <button class="btn 
+                    dropdown-toggle border border-white" type="button" 
+                    id="dropdownMenuButton" 
+                    data-toggle="dropdown"
+                    aria-haspopup="true" 
+                    aria-expanded="false">
+                <img src="images/Drapeau_francais.svg" id="2" class="img-flg">
+                <i class='fas fa-chevron-right rotate"' id="Headarrow"></i>
+                <!-- <img src="images/icons8-forward-48.png" alt="" id='myImg'  onclick="myFunction() "> -->
+     
+            </button>
+  
+            <ul class="dropdown-menu border border-white  " 
+                aria-labelledby="dropdownMenuButton" style="width:50px !important;">
+                <li class="dropdown-item " onclick="change()" style="margin-right: 10px !important;padding-left: 15px;">
+                    <img src=
+"images/Drapeau_anglais.svg"
+                     id="1"> </li>
+                
+            </ul>
+        </div></a>
+
+           <!--  <a href="#" style="margin-top:10px;"><button class="collapsible btn float-end" onclick="myFunction()" ><img src="images/Drapeau_francais.svg" ><img src="images/icons8-forward-48.png" style="width:20px;" id="myImg"> </button>
+
+                <div class="content float-end" >
+            <img src="images/Drapeau_anglais.svg" class="float-end me-3" style="margin-top:8px;">
+            </div></a> -->
+    
+            <!-- <a href="#"><img src="images/bouton_menu_france@3x.png" class="img-fluid flg "  alt="" ></a> -->
+        </div>
+    </header>
+
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+
+var c = 0;
+function myFunction() {
+    
+    if(c==0){
+        document.getElementById("myImg").src = "images/icons8-forward-48.png";
+        document.getElementById('myImg').src = "images/down-arrow.png";      
+        c=1;
+    }
+    else if(c==1){
+        document.getElementById('myImg').src = "images/down-arrow.png";  
+        document.getElementById("myImg").src = "images/icons8-forward-48.png";
+        c=0;
+    }
+}
+</script>
+
+ <script type="text/javascript">
+        var a =0;
+        function change() {
+            if(a==0){
+                document.getElementById('2').src="images/Drapeau_francais.svg";
+                document.getElementById('1').src="images/Drapeau_anglais.svg";
+                a=1;
+            }
+            else if(a==1){
+                document.getElementById('2').src="images/Drapeau_anglais.svg";
+                document.getElementById('1').src="images/Drapeau_francais.svg";
+                a=0;
+            }
+        }
+
+
+        
+
+        $(".rotate").click(function () {
+    $(this).toggleClass("down");
+})
+    </script>
+
+
+<script>
+      var FlgField = document.getElementById('FlgField');
+var selectFlg = document.getElementById('selectFlg');
+var Flgoptions = document.getElementsByClassName("Flgoptions");
+var Flglist = document.getElementById("Flglist");
+var Headarrow = document.getElementById("Headarrow");
+
+
+FlgField.onclick = function(){
+    Flglist.classList.toggle("Flghide");
+    Headarrow.classList.toggle('Flg_Icon_rotate');
+
+}
+
+for (Flgoptions of Flgoptions){
+    Flgoptions.onclick = function(){
+        // selectFlg.img = this.src;
+        // selectFlg.innerHTML = this.textContent;
+
+        Flglist.classList.toggle("Flghide")
+        Headarrow.classList.toggle('Flg_Icon_rotate');
+  }
+}
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
